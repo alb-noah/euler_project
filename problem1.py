@@ -14,11 +14,11 @@
 # print sum
 
 threshold  = input("Enter your threshold: ")
-multiVar1  = input("Enter your threshold: ")
-multiVar2  = input("Enter your threshold: ")
+multiples_of1  = input("Enter your first multiples of: ")
+multiples_of2  = input("Enter your second multiples of: ")
 sum = 0
 for i in range(int(threshold)):
-    if  (i % int(multiVar1) ==0) or (i % int(multiVar2) ==0):
+    if  (i % int(multiples_of1) ==0) or (i % int(multiples_of2) ==0):
         sum = int(sum + i)
 print(sum)
 
