@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/euler_project/build/cmake_install.cmake",
+		"D:/euler_project/build/euler_p1/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

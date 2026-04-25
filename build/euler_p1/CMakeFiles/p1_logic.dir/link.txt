@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libp1_logic.a CMakeFiles/p1_logic.dir/src/solution.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libp1_logic.a
