@@ -9,6 +9,7 @@ int main() {
 
     std::cout << "Sum of multiples of " << m1 << " or " << m2 
               << " below " << threshold << " is: " << result << std::endl;
-
+    
+    fibonacci()
     return 0;
 }
