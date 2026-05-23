@@ -1,7 +1,7 @@
-#include "solution.hpp"
+#include "p1_solution.hpp"
 #include "iostream"
 // This solution uses the formula of gaussian sum. sum= n*(n+1)/2 .
-namespace euler {
+namespace euler::p1 {
     // Helper function for the arithmetic progression sum
     uint64_t sum_divisible_by(int n, int limit) {
         uint64_t p = (limit - 1) / n;
@@ -15,24 +15,4 @@ namespace euler {
     }
 
 
-    //for for problem number 2 fibonacci problem
-    uint64_t fibonacci (){
-
-                int number=0;
-                std::cout << number <<"\n"<< "+++++++++++"<<"\n";
-
-                return fibonacci(number - 1);
-    
-    }
-
-    bool is_even(int number){
-        if(number%2 == 0){
-            return true;
-        }
-        else{
-            return false;
-        }
-    }
-
-    //end of problem 2 fibonacci problem
 }

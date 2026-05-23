@@ -1,10 +1,9 @@
 #pragma once
 #include <cstdint>
 
-namespace euler {
+namespace euler::p1 {
     uint64_t sum_multiples(int threshold, int div1, int div2);
-    bool is_even(int n);
-    uint64_t fibonacci(int n);
-
+    uint64_t sum_divisible_by(int n, int limit);
+   
 
 }
